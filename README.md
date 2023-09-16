@@ -30,7 +30,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - Solution URL: [https://github.com/zoedarkweather/profile-card-component](https://github.com/zoedarkweather/profile-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://profile-card-component-pi-five.vercel.app/](https://profile-card-component-pi-five.vercel.app/)
 
 ## My process
 
@@ -44,10 +44,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 
 ### What I learned
-I wanted to try an easier one this time to see how long it would take me to complete, and also just focus on matching the design as close as possible.
+I wanted to try an easier one this time to see how long it would take me to complete, and also just focus on matching the design as close as possible. It was a little bit more challenging than I expected. I had to look up background position and transform translate because I couldn't quite remember the syntax.  And it took me a little bit of time to figure out how to position the background images.
 
 ### Continued development
-
+Keep practicing CSS. Practice positioning background images and using transform.
 
 ## Author
 
