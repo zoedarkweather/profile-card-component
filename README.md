@@ -49,6 +49,12 @@ I wanted to try an easier one this time to see how long it would take me to comp
 ### Continued development
 Keep practicing CSS. Practice positioning background images and using transform.
 
+
+### Useful resources
+
+- [MDN - Background Position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position) - This helped me with positioning the background images.
+- [MDN - translate()](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate) - This reminded me how to use translate().
+
 ## Author
 
 - Github - [Jennifer Souza](https://github.com/zoedarkweather)
