@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile card component solution
 
-This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.  
 
 ## Table of contents
 
@@ -15,7 +15,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-
 ## Overview
 
 ### The challenge
@@ -25,7 +24,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Screenshot
 
 ![](./screenshot.png)
-
 
 ### Links
 
@@ -42,13 +40,13 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - CSS Grid
 - Mobile-first workflow
 
-
 ### What I learned
+
 I wanted to try an easier one this time to see how long it would take me to complete, and also just focus on matching the design as close as possible. It was a little bit more challenging than I expected. I had to look up background position and transform translate because I couldn't quite remember the syntax.  And it took me a little bit of time to figure out how to position the background images.
 
 ### Continued development
-Keep practicing CSS. Practice positioning background images and using transform.
 
+Keep practicing CSS. Practice positioning background images and using transform.
 
 ### Useful resources
 
@@ -59,5 +57,3 @@ Keep practicing CSS. Practice positioning background images and using transform.
 
 - Github - [Jennifer Souza](https://github.com/zoedarkweather)
 - Frontend Mentor - [@zoedarkweather](https://www.frontendmentor.io/profile/zoedarkweather)
-
-
