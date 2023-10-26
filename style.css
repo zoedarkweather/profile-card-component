@@ -25,14 +25,14 @@ body {
     align-items: center;
     justify-content: center;
     font-family: var(--primary-font);
-    font-size: 18px;    
+    font-size: 1.125rem;    
     background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
     background-repeat: no-repeat, no-repeat;
-    background-position: top -652px left -326px, bottom -652px right -326px;
+    background-position: top -30em left -35em, bottom -30em right -35em;
     background-color: var(--dark-cyan);
 }
 
-h1 {
+h2 {
     font-weight: var(--font-wt-bold);
     font-size: 1.1rem;
     color: var(--dark-desaturated-blue);
@@ -43,6 +43,12 @@ p {
     font-weight: var(--font-wt-reg);
     font-size: 0.9rem;
     color: var(--dark-grayish-blue);
+}
+
+.screenreader-only {
+    width: 0;
+    height: 0;
+    overflow: hidden;
 }
 
 .light-text {
@@ -64,8 +70,6 @@ p {
 
 /* component  */
 main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     padding-top: 3em;
     text-align: center;
     background-image: url("./images/bg-pattern-card.svg");
@@ -76,20 +80,21 @@ main {
     display: block;
     border: 5px solid white;
     border-radius: 100%;
-    grid-column: 1 / 4;
-    grid-row: 1;
-    justify-self: center;
+    margin: 0 auto;
     transform: translate(0, 48px);
 }
 
-section {
-    padding: 1.5em;
+.white-bg {
     background-color: white;    
 }
 
+.bottom-curved {
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
 .bio {
-    grid-column: 1 / 4;
-    grid-row: 2;
+    padding: 1.5em;
     padding-top: 4em;
     border-bottom: 1px solid var(--dark-gray);
 }
@@ -106,21 +111,14 @@ section {
     gap: 0.5em;
 }
 
-.followers {
-    grid-column: 1;
-    grid-row: 3;
-    border-bottom-left-radius: 1em ;
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
 }
 
-.likes {
-    grid-column: 2;
-    grid-row: 3;
-}
-
-.photos {
-    grid-column: 3;
-    grid-row: 3;
-    border-bottom-right-radius: 1em;
+.stats {
+    padding: 1.8em;
 }
 
 /* footer  */
@@ -132,7 +130,7 @@ footer {
 }
 
 footer a { 
-    color: hsl(228, 45%, 44%);
+    color: white;
 }
 
 @media screen and (min-width:800px) {
@@ -141,6 +139,6 @@ footer a {
     }
 
     body {
-        background-position: top -552px left -226px, bottom -552px right -226px;
+        background-position: top -30em left -15em, bottom -30em right -15em;
     }
 }
